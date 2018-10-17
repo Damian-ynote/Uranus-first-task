@@ -1,1 +1,33 @@
-# Uranus-first-task
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <title>Uranus</title>
+</head>
+<body>
+    <div id="container">
+        <div id="row">
+            <div id="left">
+                <h1 id="first-header">Hi, welcome<br> to Uranus</h1>
+                <img src="uranus-image.gif" alt="saturn">
+            </div>
+
+            <div id="right">
+                <h1 id="second-header">My name is <br> Damian</h1>
+                <p>Going through these classes on <br>Uranus have been really helpful,<br>
+                   it's one step at a time right? <br> My steppings are getting <br>really awesome I think.
+                </p>
+
+                <button class="email">Email me</button>
+
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
