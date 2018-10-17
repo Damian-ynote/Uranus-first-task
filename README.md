@@ -1,33 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <title>Uranus</title>
-</head>
-<body>
-    <div id="container">
-        <div id="row">
-            <div id="left">
-                <h1 id="first-header">Hi, welcome<br> to Uranus</h1>
-                <img src="uranus-image.gif" alt="saturn">
-            </div>
+*{
+    margin: 0;
+    padding: 0;
+}
 
-            <div id="right">
-                <h1 id="second-header">My name is <br> Damian</h1>
-                <p>Going through these classes on <br>Uranus have been really helpful,<br>
-                   it's one step at a time right? <br> My steppings are getting <br>really awesome I think.
-                </p>
+#left{
+    float:left;
+    width: 50%;
+    height: 630px;
+    overflow: hidden;
+    background-color: #38216b;
+}
 
-                <button class="email">Email me</button>
+img {
+    width: 500px;
+    height: 400px;
+}
 
-            </div>
-        </div>
 
-    </div>
-    
-</body>
-</html>
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#first-header {
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    padding-top: 100px;
+    padding-left: 100px;
+   
+}
+
+#right {
+    background-color: white;
+    padding-left: 120px;
+    padding-top:  100px;
+    overflow: hidden;
+}
+
+#second-header {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 25px;
+}
+
+.email {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    padding: 10px 40px;
+    background-color: #38216b;
+    border: 0;
+    color: white;
+}
