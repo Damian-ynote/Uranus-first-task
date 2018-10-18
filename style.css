@@ -6,14 +6,16 @@
 #left{
     float:left;
     width: 50%;
-    height: 630px;
+    /*the height should have been in vh so that you can use the whole page up*/
+    height: 100vh;
     overflow: hidden;
     background-color: #38216b;
 }
 
 img {
-    width: 500px;
-    height: 400px;
+    /* to resize images you only need the width, the image would use it's width to height proportion to determine it's new height*/
+    width: 45vw;
+    /*noticed i used vw again, it's easier to calculate, it means 'view width' its proportional to the screen size width, so its in percentages, let me know if you need more explanation on this*/
 }
 
 body {
